@@ -30,8 +30,6 @@ It uses a fixed-size memory buffer to simulate file storage, and includes in-mem
 
 ## 📁 Project Structure
 
-## 📁 Project Structure
-
 ```
 custom_vfs/
 ├── src/         # C source files

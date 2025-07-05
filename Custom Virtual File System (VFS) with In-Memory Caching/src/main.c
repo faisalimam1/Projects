@@ -11,7 +11,7 @@ void initialize_vfs() {
     for (int i = 0; i < MAX_FILES; ++i) {
         vfs.files[i].used = 0;
     }
-    printf("✅ Virtual File System Initialized\n");
+    printf("Virtual File System Initialized\n");
 }
 
 int main() {

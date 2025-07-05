@@ -30,14 +30,17 @@ It uses a fixed-size memory buffer to simulate file storage, and includes in-mem
 
 ## 📁 Project Structure
 
-custom_vfs/
-├── src/ # C source files
-│ └── main.c
-├── include/ # Header files
-│ └── vfs.h
-├── data/ # VFS memory file (to simulate persistent storage)
-├── README.md # Project documentation
+## 📁 Project Structure
 
+```
+custom_vfs/
+├── src/         # C source files
+│   └── main.c
+├── include/     # Header files
+│   └── vfs.h
+├── data/        # VFS memory file (to simulate persistent storage)
+└── README.md    # Project documentation
+```
 
 ---
 

@@ -1,7 +1,7 @@
 // vfs.h
 
-#ifndef VFS_H       //if its already icluded then ignore
-#define VFS_H 
+#ifndef VFS_H
+#define VFS_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,12 +23,13 @@ typedef struct {
     time_t modified_at;
 } FileEntry;
 
-// VFS structure
+// The whole VFS structure
 typedef struct {
-    char data[STORAGE_SIZE];         // Memory buffer (like disk)
+    char data[STORAGE_SIZE];         // Memory buffer
     FileEntry files[MAX_FILES];      // Table of files
     int file_count;                  // Number of files used
 } VirtualFileSystem;
 
-#endif
+void create_file(const char *filename);
 
+#endif
